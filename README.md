@@ -1,11 +1,11 @@
-# 🧠 Blinksbuy MCP Adapter (Canonical JSON v1.1)
+# Blinksbuy MCP Adapter (Canonical JSON v1.1)
 
 ### AI Automation Platform – Model Context Protocol Adapter  
 *Version: 1.1 · Deployment ready for Railway*
 
 ---
 
-## 📌 Overview
+## Overview
 
 The **MCP Adapter** is the entry point for all external channels (web, mobile, voice, chat, WhatsApp, ElevenLabs, etc.) into the **Model Context Protocol (MCP) Platform**.
 
@@ -23,7 +23,7 @@ This adapter ensures that **all channels speak one unified protocol**, enabling 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **LLM-ready** – carries optional LLM hints (model, temperature, etc.)
 - **Microservice-safe** – standardized error envelope on downstream failures.
@@ -34,7 +34,7 @@ This adapter ensures that **all channels speak one unified protocol**, enabling 
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 | Variable   | Description                                      | Example                                                     |
 |-----------|--------------------------------------------------|-------------------------------------------------------------|
@@ -43,7 +43,7 @@ This adapter ensures that **all channels speak one unified protocol**, enabling 
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 Every canonical request **must** include:
 
@@ -58,7 +58,7 @@ Requests without valid keys will return:
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### `GET /health`
 
@@ -253,7 +253,7 @@ Content-Type: application/json
 
 ---
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 1. Set headers:
    - `X-API-Key: <your_key>`
@@ -264,7 +264,7 @@ Content-Type: application/json
 
 ---
 
-## 🚉 Railway Deployment
+## Railway Deployment
 
 This project is **Railway-ready**:
 
@@ -281,7 +281,7 @@ This project is **Railway-ready**:
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 
 ```text
 blinksbuy_mcp_adapter/
@@ -294,7 +294,7 @@ blinksbuy_mcp_adapter/
 
 ---
 
-## ✅ Summary
+## Summary
 
 The Blinksbuy MCP Adapter is:
 
@@ -305,4 +305,3 @@ The Blinksbuy MCP Adapter is:
 - Designed for modern AI automation platforms
 - Ready to deploy on **Railway** out of the box
 
-Enjoy building with it 🚀
